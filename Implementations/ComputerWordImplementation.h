@@ -26,19 +26,20 @@ void displayBitVector(BitVector BV){
     BitVector mask;
     int i;
 
-    for(mask = 1 << BV_8 - 1, i = 1; mask != 0; mask >>= 1, i++){
-        printf("%d", BV | mask);
+    for(mask = 1, i = 1; mask != 0; mask <<= 1, i++){
+        printf("%d", (BV & mask) ? 1 : 0);
         if(i % 4 == 0){
             printf(" ");
         }
     }
+    printf("\n");
 
 }
 
 BitVector * Union(BitVector A, BitVector B){
 
   BitVector * C = (BitVector*)malloc(sizeof(BitVector));
-  *C = A | B;
+  *C = (A | B);
   return C;
 
 }

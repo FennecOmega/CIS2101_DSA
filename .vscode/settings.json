@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "arrayimplementation.h": "c",
+        "stacktest.h": "c"
+    }
+}
