@@ -33,9 +33,24 @@ insertBit(&B, 5);
 insertBit(&B, 6);
 insertBit(&B, 2);
 
+printf((isMember(A, 7)) ? "7 is a member of A\n" : "7 is not a member of A\n");
+printf((isMember(A, 3)) ? "3 is a member of A\n" : "3 is not a member of A\n");
+printf((isMember(B, 5)) ? "5 is a member of B\n" : "5 is not a member of B\n");
+printf((isMember(B, 1)) ? "1 is a member of B\n" : "1 is not a member of B\n");
+
 printf("Existing Bit Vectors:\n\n");
 displayBitVector(A);
 displayBitVector(B);
+
+deleteBit(&B, 3);
+deleteBit(&A, 1);
+
+
+printf("Existing Bit Vectors:\n\n");
+displayBitVector(A);
+displayBitVector(B);
+
+
 
 
 C = Union(A, B);

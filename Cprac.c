@@ -3,18 +3,18 @@
 #include <stdbool.h>
 
 
- //#include ".\Implementations\CursorImplementation.h"
+ #include ".\Implementations\CursorImplementation.h"
 
 // #include ".\Implementations\LinkedListImplementation.h"
 
- #include ".\Implementations\ArrayImplementation.h"
+// #include ".\Implementations\ArrayImplementation.h"
 
- //#include ".\Implementations\ComputerWordImplementation.h"
+ #include ".\Implementations\ComputerWordImplementation.h"
 
 
 #include ".\TestFiles\StackTest.h"
 #include ".\TestFiles\QueueTest.h"
-#include ".\TestFiles\BitVectorTest.h"
+// #include ".\TestFiles\BitVectorTest.h"
 #include ".\TestFiles\DictionaryTest.h"
 
 int main(){

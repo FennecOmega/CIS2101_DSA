@@ -248,6 +248,16 @@ if(bit < BV_8 && bit > -1){
 
 }
 
+void deleteBit(BitVector * BV, int bit){
+   if(bit < BV_8 && bit > -1){
+	(*BV)[bit] = 0;
+   }
+}
+
+bool isMember(BitVector BV, int bit){
+return BV[bit];
+}
+
 BitVector * Union(BitVector A, BitVector B){
 
     BitVector * C = (BitVector*)malloc(sizeof(A[0])*BV_8);
