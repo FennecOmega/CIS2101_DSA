@@ -16,7 +16,7 @@
 #include ".\TestFiles\QueueTest.h"
 #include ".\TestFiles\BitVectorTest.h"
 #include ".\TestFiles\DictionaryTest.h"
-//ttest
+
 int main(){
   bool isRunning = true;
   int test;
