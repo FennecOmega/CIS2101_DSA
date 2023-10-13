@@ -2,7 +2,9 @@
 #include <stdbool.h>
 #include <stdio.h>
 #define MAX 10
-
+#define BV_64 64
+#define BV_32 32
+#define BV_8 8
 
 //DATATYPE DEFINITION START
 
@@ -26,6 +28,8 @@ LIST last;
 int ctr;
 
 } Queue;
+
+typedef LIST BitVector;
 
 //DATATYPE DEFINITION END
 

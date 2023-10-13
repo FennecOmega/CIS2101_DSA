@@ -2,8 +2,8 @@
 #include <stdbool.h>
 #include <stdio.h>
 #define MAX 10
-#define BV_32 32
 #define BV_64 64
+#define BV_32 32
 #define BV_8 8
 
 // needed function operations: PUSH,POP, TOP, EMPTY, FULL, INITIALIZE, MAKENULL(?)

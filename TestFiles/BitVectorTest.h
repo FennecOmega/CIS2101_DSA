@@ -18,6 +18,7 @@ for(i = 0; i < BV_8; i++){
     insertBit(&U, i);
 }
 
+printf("Universal Bit Vector:\n\n");
 displayBitVector(U);
 
 insertBit(&A, 1);
