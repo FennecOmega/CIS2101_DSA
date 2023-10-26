@@ -35,10 +35,10 @@ typedef LIST BitVector;
 
 //INCLUDE PROTOTYPES AND IMPLEMENTATION FILES
 
-#include ".\Implementations\Prototypes.h"
-#include ".\LinkedList\LinkedListQueues.c"
-#include ".\LinkedList\LinkedListStacks.c"
-#include ".\LinkedList\LinkedListUID.c"
+#include "..\Prototypes.h"
+#include ".\LinkedListQueues.c"
+#include ".\LinkedListStacks.c"
+#include ".\LinkedListUID.c"
 
 //END INCLUDE
 

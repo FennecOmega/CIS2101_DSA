@@ -6,14 +6,14 @@
 // #include ".\Implementations\CursorBased_ComputerWord\CursorImplementation.h"
 // #include ".\Implementations\CursorBased_ComputerWord\ComputerWordImplementation.h"
 
-#include ".\Implementations\LinkedList\LinkedListImplementation.h"
+// #include ".\Implementations\LinkedList\LinkedListImplementation.h"
 
-// #include ".\Implementations\Array\ArrayImplementation.h"
+#include ".\Implementations\Array\ArrayImplementation.h"
 
 
 #include ".\TestFiles\StackTest.h"
 #include ".\TestFiles\QueueTest.h"
-// #include ".\TestFiles\BitVectorTest.h"
+#include ".\TestFiles\BitVectorTest.h"
 #include ".\TestFiles\DictionaryTest.h"
 
 int main(){

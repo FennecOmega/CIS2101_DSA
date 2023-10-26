@@ -32,9 +32,9 @@ typedef int Dictionary[MAX];
 
 // INCLUDE FILES
 
-#include ".\Implementations\Prototypes.h"
-#include ".\Array\ArrayQueues.c"
-#include ".\Array\ArrayStacks.c"
-#include ".\Array\ArrayUID.c"
+#include "..\Prototypes.h"
+#include ".\ArrayQueues.c"
+#include ".\ArrayStacks.c"
+#include ".\ArrayUID.c"
 
 // END INCLUDE
