@@ -3,13 +3,12 @@
 #include <stdbool.h>
 
 
- #include ".\Implementations\CursorImplementation.h"
+// #include ".\Implementations\CursorBased_ComputerWord\CursorImplementation.h"
+// #include ".\Implementations\CursorBased_ComputerWord\ComputerWordImplementation.h"
 
-// #include ".\Implementations\LinkedListImplementation.h"
+#include ".\Implementations\LinkedList\LinkedListImplementation.h"
 
-// #include ".\Implementations\ArrayImplementation.h"
-
- #include ".\Implementations\ComputerWordImplementation.h"
+// #include ".\Implementations\Array\ArrayImplementation.h"
 
 
 #include ".\TestFiles\StackTest.h"

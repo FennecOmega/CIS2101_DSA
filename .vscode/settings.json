@@ -2,6 +2,7 @@
     "files.associations": {
         "stdlib.h": "c",
         "arrayimplementation.h": "c",
-        "stacktest.h": "c"
+        "stacktest.h": "c",
+        "linkedlistimplementation.h": "c"
     }
 }
