@@ -1,4 +1,12 @@
-USAGE:
+# TEMPORARY TO-DO LIST
+
+- Create arraylist implementations 1-4
+- Create hashing
+- Create files for practice code
+- Create testing files that parse outputs and compare it with functioning code outputs
+- Reorganize files.
+
+# USAGE
 
 You may use any of the implementations freely for Stacks, Queues, and Hashing.
 Just uncomment the implementations that are not being used.
