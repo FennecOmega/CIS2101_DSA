@@ -2,51 +2,49 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-
- #include ".\Implementations\CursorBased_ComputerWord\CursorImplementation.h"
- #include ".\Implementations\CursorBased_ComputerWord\ComputerWordImplementation.h"
-
+#include ".\Implementations\CursorBased_ComputerWord\CursorImplementation.h"
+#include ".\Implementations\CursorBased_ComputerWord\ComputerWordImplementation.h"
 
 // #include ".\Implementations\LinkedList\LinkedListImplementation.h"
 // #include ".\Implementations\Array\ArrayImplementation.h"
-
 
 #include ".\TestFiles\StackTest.h"
 #include ".\TestFiles\QueueTest.h"
 // #include ".\TestFiles\BitVectorTest.h"
 #include ".\TestFiles\DictionaryTest.h"
 
-int main(){
-  bool isRunning = true;
-  int test;
+int main()
+{
+   bool isRunning = true;
+   int test;
 
-  while(isRunning == true){
-  printf("\n1. Stack 2. Queue 3. BitVector (CursorList + Computer Word is 3rd option) 4. Hashing 5. SECRET (end program)\n");
-  printf("Enter option: ");
-  scanf("%d", &test);
-     switch(test){
+   while (isRunning == true)
+   {
+      printf("\n1. Stack 2. Queue 3. BitVector (CursorList + Computer Word is 3rd option) 4. Hashing 5. SECRET (end program)\n");
+      printf("Enter option: ");
+      scanf("%d", &test);
+      switch (test)
+      {
 
-        case 1:
-           StackTest();
-        break;
-     
-        case 2:
-           QueueTest();
-        break;
+      case 1:
+         StackTest();
+         break;
 
-        case 3:
-           BitVectorTest();
-        break;
+      case 2:
+         QueueTest();
+         break;
 
-        case 4:
-           DictionaryTest();
-        break;
+      case 3:
+         BitVectorTest();
+         break;
 
-        default:
-        printf("Ur motherfucking GAY *dies*");
-        isRunning = false;
-     }
+      case 4:
+         DictionaryTest();
+         break;
 
-  }
-
+      default:
+         printf("Ur motherfucking GAY *dies*");
+         isRunning = false;
+      }
+   }
 }
